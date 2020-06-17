@@ -12,10 +12,9 @@ try:
 
 
     print(arr)
-    # Пришлось проходить по списку в обратном порядке, т.к. запоминалось последнее, а не первое повторяющееся значение
-    for i in arr[::-1]:
+    for i in arr:
         res = arr.count(i)
-        if res >= quantity:
+        if res > quantity:
             quantity = res
             val = i
     if quantity >= 2:
