@@ -33,3 +33,4 @@ except ValueError:
     print('Некорректно введено значение')
 except IndexError:
     print('Количество элементов не может быть меньше 2-х')
+    
